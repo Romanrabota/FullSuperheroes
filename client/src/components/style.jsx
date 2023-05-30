@@ -3,7 +3,7 @@ import  styled from "styled-components"
 //Media iPhone XR
 
 export const Cardcontainer = styled.div`
-display: flex;
+display:flex;
 width: 100%;
 flex-flow:row wrap;
 justify-content:center;
@@ -18,7 +18,7 @@ justify-content:center;
 
 export const Cardwrapper = styled.div`
 width: 420px;
-height:460px; 
+height:500px; 
 border: 1px solid black;
 display: flex;
 flex-direction: column;
@@ -40,13 +40,19 @@ h2 {
 export const Name = styled.div`
 display: flex;
 flex-direction: column;
+margin-bottom:-70px;
+`
+export const realName = styled.div`
+display: flex;
+flex-direction: column;
 `
 
+
 export const Userimg = styled.img`
-    width:150px;
+    width:200px;
     height:150px;
     border-radius: 50%;
-    margin-top:-30px;
+    margin-top:10px;
 `
 
 export const Input = styled.input`
@@ -100,7 +106,36 @@ width: 25px;
 
 ` 
 
+
+export const Cathphrase = styled.div`
+
+margin-bottom:0px;
+margin-top:10px;
+font-style:italic;
+justify-content:center;
+margin-left:20px;
+@media(max-width:414px){
+    margin-left:30px;
+    justify-content:center;
+ }
+` 
+
+
+export const Superpower = styled.div`
+
+margin-bottom:0px;
+margin-top:10px;
+justify-content:center;
+margin-left:20px;
+@media(max-width:414px){
+    margin-left:30px;
+    justify-content:center;
+ }
+` 
+
+
 export const Pagelink  = styled.div`
 
     color: grey;
 ` 
+

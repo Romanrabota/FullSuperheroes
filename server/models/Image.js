@@ -22,8 +22,8 @@ module.exports = (sequelize, DataTypes) => {
     type: DataTypes.STRING,
     allowNull:false,
     validate:{
-    notEmpty: false,
-    notNull: false,
+    notEmpty: true,
+    notNull: true,
     min:1,
     max:200 
     }

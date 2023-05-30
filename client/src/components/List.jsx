@@ -1,6 +1,6 @@
 import React, {useState,useEffect}  from "react";
 import {getSuper}  from  '../api';
-import {Cardcontainer,Input,Inputdiv} from "./style"
+import {Cardcontainer} from "./style"
 import {Card} from "./Card"
 
 

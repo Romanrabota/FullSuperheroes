@@ -2,11 +2,11 @@ POST http://localhost:3000/api/superhero HTTP/1.1
 Content-Type: application/json
 
 {
-   "nickname":"Superman",
-   "realname":"Clark Kent",
-   "origin_description":"he was born Kal-El on the planet Krypton",
-   "superpowers":" solar energy absorption and healing factor, solar flare and heat vision",
-   "cath_phrase":"Look up in the sky"
+   "nickname":"Wonder Woman",
+   "realname":"Diana",
+   "origin_description":"Wonder Woman is a superhero created by the American psychologist and writer William Moulton Marston",
+   "superpowers":"Regenerative healing factor",
+   "cath_phrase":"What one does when faced with the truth is more difficult than you’d think"
    
 
 }
